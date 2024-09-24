@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quote of the Day</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap"
+    rel="stylesheet">
+  <style>
+    html {
+      width: 300px;
+      border-radius: 10px;
+
+
+    }
+
+
+    .font {
+      font-family: "Edu VIC WA NT Beginner", cursive;
+      font-optical-sizing: auto;
+
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+
+      display: flex;
+
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+
+      border: 5px solid #151616;
+      margin-top: 0;
+      box-shadow: 0 4px 8px rgba(158, 235, 104, 0.1);
+      padding-top: 0.2rem;
+      padding-inline: 1rem;
+      padding-bottom: 1.5rem;
+      max-width: 500px;
+      width: 100%;
+      text-align: center;
+      background-color: #151616;
+    }
+
+    h1 {
+      font-size: 1.5rem;
+      font-weight: bold;
+
+      color: #9e83b6;
+
+
+    }
+
+    #quote {
+      font-size: 1.5rem;
+      font-weight: bold;
+
+      border-radius: 1rem;
+      background-color: #9e83b6;
+
+      padding: 1.2rem 0.5rem 1.2rem 0.5rem;
+      margin-bottom: 0.5rem;
+      color: #080808;
+    }
+
+    #author {
+      padding-top: 0.3rem;
+      font-size: 1rem;
+      color: #555555;
+    }
+  </style>
+</head>
+
+<body>
+
+
+
+
+  
+  <div class="container">
+    <h1 class="font">Quote of the Day</h1>
+    <div class="font" id="quote">Loading...</div>
+    <div class="font" id="author"></div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+
+</html>
